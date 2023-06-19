@@ -23,7 +23,7 @@ from gtts import gTTS
 
 def main():
     tts = gTTS('hello world. This is text to speech using Google text to speach.', lang='en', tld='co.uk')
-    tts.save('hello.mp3')
+    tts.say('hello.mp3')
     # reader = PdfReader('Outlive Excerpt.pdf')
     # for chapter_name, page_numbers in chapters.items():
     #     generate_audio_text(
